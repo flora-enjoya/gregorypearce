@@ -52,6 +52,11 @@ padding: 20px 40px 20px 40px;
 
 } 
 
+#nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
 nav a {
 color:#e0c0f5;
 text-decoration: none;
