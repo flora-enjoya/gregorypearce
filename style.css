@@ -91,3 +91,34 @@ margin-right:100px
 a:hover{ 
 color: cadetblue 
 }
+
+
+
+.responsive-image {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+  }
+
+
+  nav {
+	text-align: center; /* Center align the navigation links */
+  }
+  
+  nav a {
+	display: inline-block; /* Display navigation links in a line */
+	margin: 0 10px; /* Add some space between the navigation links */
+  }
+  
+  /* Adjust styles for smaller screens */
+  @media screen and (max-width: 600px) {
+	nav {
+	  overflow-x: auto; /* Add horizontal scroll if needed */
+	}
+  
+	nav a {
+	  display: inline-block; /* Keep navigation links inline */
+	  margin: 0 5px; /* Reduce the margin between links */
+	}
+  }
