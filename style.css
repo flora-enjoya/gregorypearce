@@ -1,10 +1,10 @@
 body {
-	font-family: Arial;
+	font-family: 'Courier New', Courier, monospace;
 	font-size: 16px;
 	line-height: 1.5;
 	
 	background-color: #ffffff;
-	color: #e0c0f5;
+	color: #000000;
 	margin: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -12,7 +12,7 @@ body {
 }
 
 a {
-color: #aacfff
+color: #000000
 }
 
 b
@@ -59,7 +59,7 @@ text-align: center;
 }
 
 nav a {
-color:#e0c0f5;
+color:#000000;
 text-decoration: none;
 margin-right: 10px  ;
 }
@@ -122,3 +122,4 @@ color: cadetblue
 	  margin: 0 5px; /* Reduce the margin between links */
 	}
   }
+
